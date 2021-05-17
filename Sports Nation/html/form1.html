@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up </title>
+     <style type="text/css">
+
+      .navbar-brand img{
+        margin-top: 0px;
+        height: 85px;
+        width: 110px;
+       }
+      .img img{
+        height: 900px;
+        width: 100%;
+       }
+       nav{
+        height:100px;
+        background-color: white;
+        color : black;
+       }
+       .navbar-nav,.nav li{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 5px;
+        color : black;
+
+       }
+       .now{
+        color: red;
+        background-color: white; 
+       }
+
+
+       #cat{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #C61D1D;
+
+  font-family: Poppins,'MS Sans Serif', Geneva, sans-serif;
+  letter-spacing: 1px;
+}
+</style>
+     <link rel="stylesheet" type="text/css" href="../css/index.css">
+     <link rel="stylesheet" type="text/css" href="../css/form1.css">
+     <script type="text/javascript" src="../js/form.js"></script>
+</head>
+ 
+
+<body>
+  <div class="navbar">
+         <img class="logo" src="../res/icon/logo.png">
+        <ul> 
+               
+            <li><a href="form1.html">Sign Up</a></li>
+               <li><a href="cricket1.html">Cricket</a></li>
+               <li><a href="football1.html">Football</a></li>
+               <li><a href="badminton1.html">Badminton</a></li>
+               <li><a href="../index.html">Home</a></li>
+          </ul>
+    </div>
+
+  
+
+
+
+<div class="form" style="background-image: url(../res/icon/formbg.jpg); background-repeat: no-repeat; background-size: 100%; height: 800px;">
+               <form name="form1">
+          <fieldset id="boss" style="border: 0px;">
+
+          <label>First Name:</label><br>
+          <input type="text" style="color: black;" name="fname" placeholder="First Name" onfocus="forFocus(this, 0)" onblur="forBlur(this, 0)" />
+          <p>Enter First Name correctly</p>
+
+          <label>Last Name:</label><br>
+          <input type="text" name="lname" placeholder="Last Name" onfocus="forFocus(this, 1)" onblur="forBlur(this, 1)" /><br/>
+          <p>Enter Last Name correctly</p>      
+
+          <label>E-Mail Id:</label><br>
+          <input type="text" name="mail" placeholder="E-Mail" onfocus="forFocus(this, 2)" onblur="forBlur(this, 2)" /><br/>
+          <p>Enter a valid E-mail</p>
+
+          <label>Password:</label><br>
+          <input type="password" name="pswd" placeholder="Password"onfocus="forFocus(this, 3)" onblur="forBlur(this, 3)" /><img data-toggle="tooltip" data-placement="right" src="../res/icon/pswd.png" title="Password must be 8-16 character long and it must contain atleast one lowercase, uppercase, numeric and special character"><br/>
+          <p>Enter password according to the conditions</p>
+          
+
+          <label>Confirm Password:</label><br>
+          <input type="password" name="repswd" placeholder="Confirm Password" onfocus="forFocus(this, 4)" onblur="forBlur(this, 4)" /><br/>
+          <p>Password didn't match</p>
+
+
+          <label>Gender:</label>
+          <select onclick="forFocus(this, 5)" onblur="forBlur(this, 5)" onchange="setValue()" id="gender" >
+               <option value="select">select</option>
+               <option value="m" >Male</option>
+               <option value="f" >Female</option>
+               <option value="not" >Rather Not Say</option>
+               <option value="Custom" >Custom</option>
+          </select>
+          <p>Please select gender</p>
+
+
+          <label>Mobile Number:</label><br>
+          <input type="text" name="mobile" placeholder="Moblie Number (optional)" onfocus="forFocus(this, 6)" onblur="forBlur(this, 6)" ><br/>
+          <p>Enter a valid Mobile Number</p>
+
+
+          <input type="radio" name="tnc" required>I agree to the T&C*<br/><br>
+
+
+          <input type="button" value="Sign Up" class="btn btn-danger" style="background-color: #C61D1D" name="done" id="submit" onclick="finalCheck()">
+     </fieldset>
+     </form>
+          </div>
+
+
+
+<div class="bf">
+     <ul class="two">
+          <li class="one"><a href="badminton1.html">Badminton</a></li>
+          <li>Badminton Rackets</li>
+          <li>Shuttlecock</li>
+          <li>Racket Grip</li>
+          <li>Badminton Shoes</li>
+          <li>Badminton Net</li>
+     </ul>
+     <ul class="two">
+          <li class="one"><a href="cricket1.html">Cricket</a></li>
+         <li>Bat</li>
+          <li>Ball</li>
+          <li>Kit Bag</li>
+          <li>Cricket Pads</li>
+     </ul>
+     <ul class="two">
+          <li class="one"><a href="football1.html">Football</a></li>
+          <li>Football Shoes</li>
+          <li>Football</li>
+          <li>Football Gloves</li>
+     </ul>
+</div>    
+
+</body>
+</html>

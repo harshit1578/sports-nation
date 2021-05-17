@@ -1,0 +1,102 @@
+ 
+.bottom
+{
+	width: 600px;
+	height: 600px;
+	padding:20px 20px;
+}
+.image img {
+  position:absolute;
+  transition: opacity 1s ease-in-out;
+  padding-top: 0px;
+}
+
+@keyframes cf3FadeInOut 
+{
+  0%
+   {
+  opacity:1;
+}
+45%
+ {
+opacity:1;
+}
+55% 
+{
+opacity:0;
+}
+100% 
+{
+opacity:0;
+}
+}
+
+#cf2 img.top 
+{
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
+}
+.menu
+{
+  display: inline-block;
+	font-size: 28px;
+	padding-left: 700px;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+  height: 600px;
+}
+#demo,#abcd{
+  padding-left: 10px;
+}
+.price,#price
+{
+	color: red;
+}
+#ddmenu
+{
+	padding-left: 250px;
+	display: inline-block;
+	  width: 100%;
+    max-width: 100%;
+    border: 2px solid rgba(129,129,129,.2);
+    background-color: transparent;
+    font-size: 14px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    vertical-align: middle;
+    padding: 0 15px;
+    height: 42px;
+}
+.locate{
+  color:white;
+  border:0px solid red;
+  background-color: red;
+  padding: 15px 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.locate:hover{
+  background-color: black;
+}
+.address
+{
+
+text-align: left;
+font-size: 15px;
+padding-bottom: 50px;
+}
+.information
+{
+padding-top: 40px;
+}
+label{
+  padding-bottom: 20px;
+}
+#demo{
+  padding-top: 3px;
+  line-height: 22px;
+}

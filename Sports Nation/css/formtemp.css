@@ -1,0 +1,29 @@
+ p{
+	color:solid blue; 
+	text-align: center;
+}
+fieldset{
+
+	border:none;
+	width: 500px; 
+	height: 300px; 
+	text-align: center; 
+	height: 400px;
+	
+}
+form{
+	color: #145066;
+	margin-left: 700px;
+	margin-top: 50px;
+	text-align: right;
+	font-family: Comic Sans MS;
+}
+body{
+	background-image: radial-gradient( #1AEBAB,#208AB0);
+	background-size: 100%;
+	}
+	.submit{
+		padding-top: 5px;
+		height: 40px;
+		width: 70px;
+	}
